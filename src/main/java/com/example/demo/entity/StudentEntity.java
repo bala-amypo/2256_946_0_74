@@ -30,8 +30,15 @@ public class StudentEntity{
     public void setCgpa(float cgpa){
         this.cgpa=cgpa;
     }
+    public StudentEntity(int id,String name,String email,float cgpa){
+        this.id=id;
+        this.name=name;
+        this.email=email;
+        this.cgpa=cgpa;
+    }
+    public StudentEntity(){
+    }
 
-    
 
 
 }
