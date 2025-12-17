@@ -17,5 +17,7 @@ public class StudentService implements StudentInterface{
         return repo.save(stu);
     }
     @Override
-    
+    public List<StudentEntity> dataList(){
+        return repo.findAll();
+    }
 }
