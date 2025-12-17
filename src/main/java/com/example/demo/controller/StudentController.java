@@ -3,8 +3,8 @@ package com.example.demo.controller;
 import java.util.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.*;
-import com.example.demo.StudentEntity;
-import com.example.demo.StudentInterface;
+import com.example.demo.entity.StudentEntity;
+import com.example.demo.service.StudentInterface;
 
 @RestController
 public class StudentController{
