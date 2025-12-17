@@ -21,4 +21,9 @@ public class StudentController{
     public List<StudentEntity> dataList(){
         return ser.dataList();
     }
+
+    @GetMapping("getdatabyid/{id}")
+    public Optional<StudentEntity> fetchdataById(@PathVariable int id){
+        return ser.fetchdataById(id);
+    }
 }
