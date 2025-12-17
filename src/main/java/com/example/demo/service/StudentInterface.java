@@ -7,4 +7,5 @@ public interface StudentInterface {
 
     public StudentEntity createdata(StudentEntity stu);
     public List<StudentEntity> dataList();
+    public Optional<Student>  fetchdataById(int id);
 }
