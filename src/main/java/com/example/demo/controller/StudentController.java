@@ -14,7 +14,7 @@ public class StudentController{
 
     @PostMapping("/newdata")
     public StudentEntity createdata(@RequestBody StudentEntity stu){
-        ser.createdata(stu);
+        return ser.createdata(stu);
     }
 
     @GetMapping("/getdata")
