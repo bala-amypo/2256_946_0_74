@@ -21,7 +21,7 @@ public class StudentService implements StudentInterface{
     public List<StudentEntity> dataList(){
         return repo.findAll();
     }@Override
-    public Optional<Student>  fetchdataById(int id){
+    public Optional<StudentEntity>  fetchdataById(int id){
         return repo.findById(id);
     }
 }
