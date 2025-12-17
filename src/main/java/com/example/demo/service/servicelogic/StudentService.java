@@ -1,4 +1,4 @@
-package.com.example.demo.service.servicelogic;
+package com.example.demo.service.servicelogic;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
