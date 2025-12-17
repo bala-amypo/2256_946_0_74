@@ -1,4 +1,4 @@
-package.com.example.demo.controller
+package.com.example.demo.controller;
 
 import java.util.*;
 import org.springframework.beans.factory.annotation.autowired;
@@ -13,7 +13,7 @@ public class StudentController{
     StudentInterface ser;
 
     @PostMapping("/newdata")
-    public StudentEntity createdata(StudentEntity stu){
+    public StudentEntity createdata(@RequestBody StudentEntity stu){
         ser.createdata(stu);
     }
 
