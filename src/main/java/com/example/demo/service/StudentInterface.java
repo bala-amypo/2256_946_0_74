@@ -8,4 +8,5 @@ public interface StudentInterface {
     public StudentEntity createdata(StudentEntity stu);
     public List<StudentEntity> dataList();
     public Optional<StudentEntity>  fetchdataById(int id);
+    public deleteData(int id);
 }

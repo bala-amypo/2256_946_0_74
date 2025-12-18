@@ -24,4 +24,7 @@ public class StudentService implements StudentInterface{
     public Optional<StudentEntity>  fetchdataById(int id){
         return repo.findById(id);
     }
+    @Override
+    public deleteData(int id){
+    
 }
