@@ -26,5 +26,6 @@ public class StudentService implements StudentInterface{
     }
     @Override
     public deleteData(int id){
-    
+        return deleteById(id);
+    }
 }
